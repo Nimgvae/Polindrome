@@ -11,17 +11,11 @@ import java.util.*;
       Вывод на экран СЛОВО : Палиндром/НЕ Палиндром
 **/
 public class Palindrom {
-    public static final int wordlen = 3;
-    public static final int wordsnumb=100;
+    public static final int wordlen = 5;
+    public static final int wordsnumb=1000;
 
     public static void main(String[] args) {
         ArrayList<String> list = wordsGenerator();
-//        for (String a :list
-//             ) {
-//            System.out.println(a);
-//        }
-        ArrayList<String> list2 =new ArrayList<String>();
-        list2.add("anna");
         checkPolindrome(list);
 
 
