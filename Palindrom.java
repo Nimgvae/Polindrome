@@ -38,10 +38,10 @@ public class Palindrom {
             StringBuilder temp = new StringBuilder(list.get(i));
             temp =temp.reverse();
             if(list.get(i).equals(String.valueOf(temp))){
-                System.out.println("Слово "+ list.get(i)+" >>>>> полиндромно<<<<<");
+                System.out.println("Слово "+ list.get(i)+" >>>>> палиндромно<<<<<");
                 continue;
             }
-            else System.out.println("Слово " + list.get(i)+" не полиндром");
+            else System.out.println("Слово " + list.get(i)+" не палиндром");
         }
 
     }
