@@ -41,7 +41,7 @@ public class Palindrom {
                 System.out.println("Слово "+ list.get(i)+" >>>>> палиндромно<<<<<");
                 continue;
             }
-            else System.out.println("Слово " + list.get(i)+" не палиндром");
+            else System.out.println("Слово " + list.get(i)+" не палиндромно");
         }
 
     }
